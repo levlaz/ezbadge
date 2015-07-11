@@ -13,7 +13,7 @@ Please open an issue if you want a badge that is missing. :)
 
 1. Clone this Repo 
 
-    git clone https://github.com/levlaz/ezbadge
+    `git clone https://github.com/levlaz/ezbadge`
 
 2. Install Requirements 
     
@@ -24,6 +24,6 @@ Please open an issue if you want a badge that is missing. :)
 
 3. Start the App 
 
-    python app.py 
+    `python app.py`
 
 4. Visit it at http://localhost:5001
