@@ -1,3 +1,10 @@
+/**
+ * ezbadge -- Easy Badge Creator 
+ * Copyright (c) 2015, Lev Lazinskiy (MIT Licensed)
+ * https://github.com/levlaz/ezbadge
+ */
+
+
 function createBadge(){
     if ( checkUrl() ) {
         showBadge()
