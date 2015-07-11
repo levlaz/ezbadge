@@ -1,11 +1,11 @@
 # ezbadge
 Tool for Easily Making Markdown for Various GitHub Badges 
 
-You can see this app in action [http://ezbadge.levlaz.org](here):  
+You can see this app in action [here](https://github.com/levlaz/ezbadge):  
 
 # Currently Supported Badges 
 
-* [https://circleci.com](CircleCI)
+* [CircleCI](https://circleci.com)
 
 Please open an issue if you want a badge that is missing. :) 
 
