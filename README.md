@@ -9,21 +9,16 @@ You can see this app in action [here](http://ezbadge.levlaz.org):
 
 Please open an issue if you want a badge that is missing. :) 
 
-# Installation 
+# Hacking  
 
 1. Clone this Repo 
 
     `git clone https://github.com/levlaz/ezbadge`
 
-2. Install Requirements 
-    
-    ```bash 
-    apt-get install python-pip 
-    pip install -r requirements.txt 
-    ```
+2. Open up index.html in a web browser 
 
-3. Start the App 
+3. All the magic happens in static/js/ezbadge.js 
 
-    `python app.py`
+# Kudos 
 
-4. Visit it at http://localhost:5001
+This app was super easy to make thanks to the awesome folks at [Bootstrap](https://github.com/twbs/bootstrap) and [Marked](https://github.com/chjj/marked) :) 
