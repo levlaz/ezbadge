@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come*after*thesetags -->
+         <meta name="description" content="">
+         <meta name="author" content="">
+         <link rel="icon" href="../../favicon.ico">
+         <title>ez Badge</title>
+         <!-- Bootstrap core CSS -->
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+         <link href="static/css/ezBadge.css" rel="stylesheet">
+
+         <script src="static/js/ezbadge.js"></script>
+    </head>
+
+    <body>
+
+    <div id="wrap">
+    <div id="main" class="container">
+
+        <div class="row ">
+                <h3 class="mashead-brand"> ezBadge </h3>
+        </div>
+
+        <div class="row  main">
+            <h1> Create a Badge </h1>
+            <p class="large"> ezBadge makes it easy to create the Markdown to display a <a href="https://circleci.com">CircleCI</a> badge anywhere that supports Markdown. Simply enter the URL for your GitHub repo and hit badgify. Support for more types of Badges is Coming Soon :)</p>
+        </div>
+
+        <div class="row">
+            <div id="urlDiv" class="">
+                <input type="text" id="url" name="url" class="form-control" placeholder="GitHub Repo URL">
+                <span id="urlHelp" class="help-block"></span>
+            </div>
+            <br>
+            <div class="button ">
+            <button name="submit" class="btn btn-lg btn-primary center-block" onclick="createBadge();">Badgify</button>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="badgeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title" id="myModalLabel">Your Shiny New Badge(s)!</h2>
+              </div>
+              <div class="modal-body">
+                <h3> Put this anywhere ... </h3>
+                <span class="raw" id="modalUrl"></span>
+                <h3> ... and you will see this. </h3>
+                <span id="modalPreview"></span>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+
+    </div> <!-- End Main Div -->
+
+    </div> <!-- End Wrap Div -->
+
+</div>
+
+    <footer class="footer">
+            <p>&copy; 2015 <a href="https://github.com/levlaz/ezBadge"> ezBadge</a> by <a href="https://twitter.com/levlaz">@levlaz</a>.</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="static/js/lib/marked.js"></script>
+    </body>
+
+</html>
+
+
+
+
+

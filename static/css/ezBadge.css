@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+html,
+body {
+    height: 100%;
+    background-color: rgba(0,10,50,.40);
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:150px;
+}
+
+.main { 
+    text-align: center; 
+    padding-top:10%;
+    padding-bottom:5%;
+}
+
+.main p { 
+    font-size:20px;
+}
+
+a {
+    color: #65B8FF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #65B8FF;
+}
+
+.has-error .help-block {
+    color: rgb(255, 123, 123);
+    text-shadow: none;
+}
+
+.has-error .form-control:focus {
+    border-color: rgb(255, 123, 123);
+}
+
+.footer {
+    position: relative; 
+    margin-top: -150px;
+    height: 150px;
+    clear: both;
+    padding-top:20px;
+    text-align: center; 
+}
+
+/** Custom CSS for Modal **/ 
+.modal {
+  text-align: center;
+  color: #fff;
+}
+
+.modal-content {
+  background-color: rgb(94, 104, 128);
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+.modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* 
+ * Show Raw Content 
+ */ 
+
+.raw {
+  border: solid 1px black;
+  display: block;
+  font-family: monospace;
+  background-color: white;
+  color: #333;
+  padding: 10px;
+  border-radius: 6px;
+  text-shadow: none;
+}
+
