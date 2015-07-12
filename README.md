@@ -1,6 +1,8 @@
 # ezbadge
 Tool for Easily Making Markdown for Various GitHub Badges 
 
+![ezBadge UI](https://levlaz.org/wp-content/uploads/2015/07/ezBadge2.png)
+
 This is a Single Page Application that runs entirely in your browser. You can see this app in action [here](http://ezbadge.levlaz.org).
 
 # Currently Supported Badges 
